@@ -1,6 +1,6 @@
 import React from 'react';
 
-const About = () => {
+const Price = () => {
   return (
     <div className="container">
       <h1
@@ -10,12 +10,12 @@ const About = () => {
           marginBottom: '1rem',
         }}
       >
-        О приложении
+        Стоимость
       </h1>
-      <p>TODO список задач - распространённый тип пометки.</p>
+      <p>Бесплатное использование.</p>
       <hr />
     </div>
   );
 };
 
-export default About;
+export default Price;
